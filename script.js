@@ -29,9 +29,10 @@ function gerak() {
 }
 function jawabYes() {
   // Ganti nomor dan pesan sesuai kebutuhan kamu
-  const nomor = '6283128841873'; // Ganti dengan nomor WA kamu (awali dengan 62, tanpa +)
+  const nomor = '62 857-5567-2948'; // Ganti dengan nomor WA kamu (awali dengan 62, tanpa +)
   const pesan = encodeURIComponent('BOLEH AJA!, Aku juga mau kita lebih kenal lebih dekat lagi 😍💖');
   const url = `https://wa.me/${nomor}?text=${pesan}`;
 
   window.open(url, '_blank');
 }
+
